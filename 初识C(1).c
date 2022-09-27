@@ -1,5 +1,4 @@
-//
-//
+#define _CRT_SECURE_NO_WARNINGS 1 // 关闭代码编译时的警告warning
 #include <stdio.h>
 //
 //int main(){
@@ -88,15 +87,36 @@
 
 
 
-int main() {
-    // 计算两个数的和
-    int num1 = 0;
-    int num2 = 0;
-    int sum = 0;
-    // 输入数据 - 使用输入函数
-    scanf("%d%d", &num1, &num2);
-    // & 取地址符号
-    sum = num1 + num2;
-    printf("sum = %d\n", sum);
-    return 0;
-}
+//int main() {
+//    // 计算两个数的和
+//    int num1 = 0;
+//    int num2 = 0;
+//    int sum = 0;
+//    // 输入数据 - 使用输入函数
+//    scanf("%d%d", &num1, &num2);
+//    // & 取地址符号
+//    sum = num1 + num2;
+//    printf("sum = %d\n", sum);
+//    return 0;
+//}
+
+//
+//int main() {
+//    int num1 = 0;
+//    int num2 = 0;
+//    int sum = 0;
+//    scanf("%d%d", &num1, &num2);
+//    // scanf 是C语言提供的， scanf_s 不是标准C语言提供的，VS编译器提供的
+//    // strcpy strlen strcat 都是不安全的
+//    sum = num1 + num2;
+//
+//    printf("%d\n", sum);
+//
+//    return 0;
+//}
+
+
+
+
+
+

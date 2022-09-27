@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C_Project-Debug-13e049090eb1b8a0a411.json",
+					"jsonFile" : "target-C_Project-Debug-19e0662a184f30e7472e.json",
 					"name" : "C_Project",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Three/Desktop/C_project/cmake-build-debug",
-		"source" : "C:/Users/Three/Desktop/C_project"
+		"build" : "/Users/xiaoyan/Desktop/C_Project/cmake-build-debug",
+		"source" : "/Users/xiaoyan/Desktop/C_Project"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 3
 	}
 }
