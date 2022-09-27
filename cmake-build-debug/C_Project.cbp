@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Three/Desktop/C_project/main.c">
+		<Unit filename="C:/Users/Three/Desktop/C_project/初识C(3).c">
 			<Option target="C_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Three/Desktop/C_project/CMakeLists.txt">

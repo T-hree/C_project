@@ -118,29 +118,29 @@ C_Project\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\build
 .PHONY : C_Project\fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+初识C(3).obj: 初识C(3).c.obj
+.PHONY : 初识C(3).obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\main.c.obj
-.PHONY : main.c.obj
+初识C(3).c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\初识C(3).c.obj
+.PHONY : 初识C(3).c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+初识C(3).i: 初识C(3).c.i
+.PHONY : 初识C(3).i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\main.c.i
-.PHONY : main.c.i
+初识C(3).c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\初识C(3).c.i
+.PHONY : 初识C(3).c.i
 
-main.s: main.c.s
-.PHONY : main.s
+初识C(3).s: 初识C(3).c.s
+.PHONY : 初识C(3).s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\main.c.s
-.PHONY : main.c.s
+初识C(3).c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\初识C(3).c.s
+.PHONY : 初识C(3).c.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_Project
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... 初识C(3).obj
+	@echo ... 初识C(3).i
+	@echo ... 初识C(3).s
 .PHONY : help
 
 
