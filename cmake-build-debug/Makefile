@@ -118,6 +118,30 @@ C_Project\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\build
 .PHONY : C_Project\fast
 
+add.obj: add.c.obj
+.PHONY : add.obj
+
+# target to build an object file
+add.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\add.c.obj
+.PHONY : add.c.obj
+
+add.i: add.c.i
+.PHONY : add.i
+
+# target to preprocess a source file
+add.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\add.c.i
+.PHONY : add.c.i
+
+add.s: add.c.s
+.PHONY : add.s
+
+# target to generate assembly for a file
+add.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C_Project.dir\add.c.s
+.PHONY : add.c.s
+
 初识C(3).obj: 初识C(3).c.obj
 .PHONY : 初识C(3).obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_Project
+	@echo ... add.obj
+	@echo ... add.i
+	@echo ... add.s
 	@echo ... 初识C(3).obj
 	@echo ... 初识C(3).i
 	@echo ... 初识C(3).s
